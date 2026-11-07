@@ -1,0 +1,16 @@
+# Haskell / GHC
+*.o
+*.hi
+*.dyn_o
+*.dyn_hi
+*.exe
+*.exe.stack-work
+.stack-work/
+dist-newstyle/
+cabal.project.local
+
+# Editor and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
