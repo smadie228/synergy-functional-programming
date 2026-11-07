@@ -38,6 +38,20 @@
 Для `factorial`, `fib` и `fibFast` предусмотрена проверка отрицательных аргументов.
 
 <details>
+<summary><strong>🧩 Схема: как раскрывается рекурсия факториала</strong></summary>
+
+```mermaid
+flowchart LR
+    A["factorial 4"] --> B["4 × factorial 3"]
+    B --> C["4 × 3 × factorial 2"]
+    C --> D["4 × 3 × 2 × factorial 1"]
+    D --> E["4 × 3 × 2 × 1 × factorial 0"]
+    E --> F["24"]
+```
+
+</details>
+
+<details>
 <summary><strong>📷 Показать код задания 1</strong></summary>
 
 ![Рекурсия и числа Фибоначчи](images/code-recursion.png)
@@ -52,6 +66,19 @@
 | `takeWhileRec` | Рекурсивно берёт элементы до первого не подходящего под условие |
 | `primes` | Создаёт бесконечный список простых чисел |
 | `firstNPrimes` | Возвращает первые `n` простых чисел |
+
+<details>
+<summary><strong>🧩 Схема: обработка чётных чисел</strong></summary>
+
+```mermaid
+flowchart LR
+    A["[1..]"] --> B["filter even"]
+    B --> C["map (^2)"]
+    C --> D["take n"]
+    D --> E["sum"]
+```
+
+</details>
 
 <details>
 <summary><strong>📷 Показать код задания 2</strong></summary>
