@@ -1,4 +1,16 @@
-# Основы функционального программирования
+<div align="center">
+
+# Функциональное программирование
+**Учебные лабораторные · Python · Haskell**
+
+![Python](https://img.shields.io/badge/Python-labs-152a3b?style=flat-square&logo=python&logoColor=white) ![Haskell](https://img.shields.io/badge/Haskell-labs-147d86?style=flat-square&logo=haskell&logoColor=white) ![Status](https://img.shields.io/badge/status-learning-53677b?style=flat-square)
+
+[← GitHub-профиль](https://github.com/smadie228) · [Service Checker](https://github.com/smadie228/service-checker) · [Linux Incident Lab](https://github.com/smadie228/linux-incident-lab)
+
+</div>
+
+---
+
 
 **Учебный репозиторий по дисциплине «Основы функционального программирования».**
 
@@ -78,3 +90,7 @@ runghc Main.hs
 ---
 
 **Принцип репозитория:** единая структура, читаемые инструкции, подтверждённые результаты и возможность повторить каждый шаг самостоятельно.
+
+---
+
+<div align="center"><sub>Learning by doing · <a href="https://github.com/smadie228">@smadie228</a></sub></div>
